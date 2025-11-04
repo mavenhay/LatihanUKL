@@ -48,7 +48,7 @@ Deklarasi variabel newMat (int[][]) dengan fungsi count (bukan count bawaan) yan
 Penjelasan fungsi-fungsi soal 3.2:
 1) matrix<br>
 Fungsi ini menggunakan 2 parameter yaitu r dan k (baris dan kolom) dan akan return nilai berbentuk int[][]. (b88)<br>
-Deklarasi input (Scanner), num (int) yang nanti digunakan sebagai nilai input, res sebagai hasil matriks (bukan penjumlahan) berbentuk int[][] yang jumlah array pertama dan keduanya sama dengan jumlah baris dan kolom yang berasal dari input pengguna (int\\[pertama sebagai baris][kedua sebagai kolom]). (b89-b91)<br>
+Deklarasi input (Scanner), num (int) yang nanti digunakan sebagai nilai input, res sebagai hasil matriks (bukan penjumlahan) berbentuk int[][] yang jumlah array pertama dan keduanya sama dengan jumlah baris dan kolom yang berasal dari input pengguna (int\[pertama sebagai baris][kedua sebagai kolom]). (b89-b91)<br>
 For-loop pertama berisi tulisan urutan baris dan for-loop kedua, kemudian for-loop kedua berisi tulisan urutan kolom dan mengganti setiap nilai dalam kolom res menggunakan input dari pengguna, setelah kolom pada baris tersebut semuanya diganti, maka akan pindah ke baris lain secara urut (sesuai nilai iterasi loop pertama). Urutan mengganti: baris -> kolom (hingga jumlah kolom) -> ulang (hingga jumlah baris). (b92-b99)<br>
 Return hasil matriks. (b100)<br>
 2) disp<br>
@@ -57,10 +57,11 @@ For-loop pertama berisi for-loop kedua. For-loop pertama digunakan untuk membuat
 3) count<br>
 Fungsi ini menggunakan parameter m1 dan m2 sebagai matriks (int[][]), r dan c sebagai jumlah baris dan kolom. (b111)<br>
 Deklarasi variabel res (int[][]) dengan jumlah baris dan kolom yang sama dengan baris dan kolom dari input pengguna. (b112)<br>
-For-loop pertama hanya berisi for-loop kedua, karena for-loop pertama hanya digunakan untuk menghitung urutan baris. For-loop kedua digunakan untuk mengganti nilai res dan menghitung setiap nilai kolom pada setiap baris dengan nilai matriks1 dan matriks2 urutan ke-n (m dan res\\[baris ke-i][kolom ke-p]). (b113-b-117)<br>
+For-loop pertama hanya berisi for-loop kedua, karena for-loop pertama hanya digunakan untuk menghitung urutan baris. For-loop kedua digunakan untuk mengganti nilai res dan menghitung setiap nilai kolom pada setiap baris dengan nilai matriks1 dan matriks2 urutan ke-n (m dan res\[baris ke-i][kolom ke-p]). (b113-b-117)<br>
 Return hasil matriks. (b1118)<br>
 
 <img src="soal32.png">
+
 
 
 
