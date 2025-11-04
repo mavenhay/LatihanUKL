@@ -9,9 +9,9 @@ Menampilkan harga total setelah melakukan perhitungan. (b22)
 
 <img src="soal11.png">
 
-Soal 1.2
-Meminta input angka (int) kepada user. (b25-b26)
-Menentukan angka ganjil/genap biasanya menggunakan modulus (%) yaitu operator sisa hasil bagi, angka genap selalu habis dibagi 2. Jadi, jika variabel angka modulus 2 hasilnya 0 (sisa baginya 0) maka akan menampilkan "Angka genap.", selain kondisi tersebut menampilkan "Angka ganjil.". (b27-b31)
+Soal 1.2\n
+Meminta input angka (int) kepada user. (b25-b26)\n
+Menentukan angka ganjil/genap biasanya menggunakan modulus (%) yaitu operator sisa hasil bagi, angka genap selalu habis dibagi 2. Jadi, jika variabel angka modulus 2 hasilnya 0 (sisa baginya 0) maka akan menampilkan "Angka genap.", selain kondisi tersebut menampilkan "Angka ganjil.". (b27-b31)\n
 
 <img src="soal12.png">
 
@@ -61,4 +61,5 @@ For-loop pertama hanya berisi for-loop kedua, karena for-loop pertama hanya digu
 Return hasil matriks. (b1118)
 
 <img src="soal32.png">
+
 
