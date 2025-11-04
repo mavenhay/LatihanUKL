@@ -1,4 +1,4 @@
-Objek Scanner digunakan untuk meminta input dari pengguna saat program dijalankan an dideklarasi sebagai input.
+Objek Scanner digunakan untuk meminta input dari pengguna saat program dijalankan dan dideklarasi sebagai input.
 
 Soal 1.1
 Deklarasi varibel harga, jarak, berat, dan volume dengan tipe data double. (b13)
@@ -61,3 +61,4 @@ For-loop pertama hanya berisi for-loop kedua, karena for-loop pertama hanya digu
 Return hasil matriks. (b1118)
 
 <img src="soal32.png">
+
