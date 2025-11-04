@@ -1,14 +1,14 @@
 Objek Scanner digunakan untuk meminta input dari pengguna saat program dijalankan dan dideklarasi sebagai input.
-
-Soal 1.1
+<br>
+Soal 1.1<br>
 Deklarasi varibel harga, jarak, berat, dan volume dengan tipe data double. (b13)<br>
 Meminta input jarak, berat, dan volume kepada pengguna menggunakan Scanner (variabel/objek bernama input) lalu disimpan untuk menentukan harga ke dalam variabel. (b14-b19)<br>
 Jika jarak kurang dari sama dengan 10, maka varibel harga paket ditambah 4250 dikali berat paket, jika lebih dari 10 (selain <= 10) maka variabel harga ditambah 6000 dikali berat paket (If-else ini menggunakan ternary operator). (b20)<br>
 Jika volume paket (cm3) lebih dari 100 maka variabel harga ditambah 50000, selain itu tidak ada penambahan. (b21)<br>
 Menampilkan harga total setelah melakukan perhitungan. (b22)<br>
-
+<br>
 <img src="soal11.png">
-
+<br>
 Soal 1.2<br>
 Meminta input angka (int) kepada user. (b25-b26)<br>
 Menentukan angka ganjil/genap biasanya menggunakan modulus (%) yaitu operator sisa hasil bagi, angka genap selalu habis dibagi 2. Jadi, jika variabel angka modulus 2 hasilnya 0 (sisa baginya 0) maka akan menampilkan "Angka genap.", selain kondisi tersebut menampilkan "Angka ganjil.". (b27-b31)<br>
@@ -61,6 +61,7 @@ For-loop pertama hanya berisi for-loop kedua, karena for-loop pertama hanya digu
 Return hasil matriks. (b1118)<br>
 
 <img src="soal32.png">
+
 
 
 
