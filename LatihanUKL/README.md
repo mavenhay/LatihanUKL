@@ -37,7 +37,6 @@ For-loop yang mengulang sebanyak jumlah siswa (dari input) yang di dalamnya terd
 Menghitung rata-rata, tipe data nilai/siswa di-casting menjadi double supaya menghasilkan hasil desimal. (b58)
 Menampilkan hasil rata-rata nilai siswa. (b59)
 
-
 <img src="soal31.png">
 
 Soal 3.2
@@ -47,16 +46,18 @@ Menampilkan matriks berbentuk tabel menggunakan fungsi yang bernama disp, karena
 Deklarasi variabel newMat (int[][]) dengan fungsi count (bukan count bawaan) yang menghasilkan nilai dari penjumlahan matriks1 dan matriks2, lalu menampilkan matriks newMat dengan fungsi disp. (b78-b80)
 
 Penjelasan fungsi-fungsi soal 3.2:
-1. matrix
+1) matrix
 Fungsi ini menggunakan 2 parameter yaitu r dan k (baris dan kolom) dan akan return nilai berbentuk int[][]. (b88)
 Deklarasi input (Scanner), num (int) yang nanti digunakan sebagai nilai input, res sebagai hasil matriks (bukan penjumlahan) berbentuk int[][] yang jumlah array pertama dan keduanya sama dengan jumlah baris dan kolom yang berasal dari input pengguna (int\\[pertama sebagai baris][kedua sebagai kolom]). (b89-b91)
 For-loop pertama berisi tulisan urutan baris dan for-loop kedua, kemudian for-loop kedua berisi tulisan urutan kolom dan mengganti setiap nilai dalam kolom res menggunakan input dari pengguna, setelah kolom pada baris tersebut semuanya diganti, maka akan pindah ke baris lain secara urut (sesuai nilai iterasi loop pertama). Urutan mengganti: baris -> kolom (hingga jumlah kolom) -> ulang (hingga jumlah baris). (b92-b99)
 Return hasil matriks. (b100)
-2. disp
+2) disp
 Fungsi ini menggunakan parameter mat sebagai matriks (int[][]), dengan return type int[][]
 For-loop pertama berisi for-loop kedua. For-loop pertama digunakan untuk membuat baris baru (menggunakan println) setelah semua kolom ditulis pada baris ke-i (menggunakan print). 'i' adalah iterasi loop pertama yang bernilai urutan baris. (b103-b-109)
-3. count
+3) count
 Fungsi ini menggunakan parameter m1 dan m2 sebagai matriks (int[][]), r dan c sebagai jumlah baris dan kolom. (b111)
 Deklarasi variabel res (int[][]) dengan jumlah baris dan kolom yang sama dengan baris dan kolom dari input pengguna. (b112)
 For-loop pertama hanya berisi for-loop kedua, karena for-loop pertama hanya digunakan untuk menghitung urutan baris. For-loop kedua digunakan untuk mengganti nilai res dan menghitung setiap nilai kolom pada setiap baris dengan nilai matriks1 dan matriks2 urutan ke-n (m dan res\\[baris ke-i][kolom ke-p]). (b113-b-117)
 Return hasil matriks. (b1118)
+
+<img src="soal32.png">
